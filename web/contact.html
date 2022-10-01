@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VOrgreens - Contact Us</title>
+    <link rel="stylesheet" href="styleContact.css">
+    <link rel="stylesheet" href="./css/all.css">
+    <script src="validation.js"></script>
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <span>VOrgreens</span>
+        </div>
+        <div class="pages">
+            <a href="home.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="menu.html">Menu</a>
+            <a href="find.html">Find Us</a>
+            <a href="contact.html">Contact Us</a>
+        </div>
+    </nav>
+    <div class="container">
+        <form action="" method="post">
+            <div class="title">
+                <h1>How Can We Help?</h1>
+                <!-- horizontal line -->
+                <hr>  
+            </div>
+            <h2>VOrgreens Eatery</h2>
+            <h3>Please fill in your details</h3>
+            <div class="formGroup">
+                <h4 class="label">Full Name*</h4>
+                <input type="text" name="name" id="name">
+                <small></small>
+            </div>
+            <div class="formGroup">
+                <h4 class="label">Email*</h4>
+                <input type="email" name="email" id="email">
+                <small></small>
+            </div>
+            <div class="formGroup">
+                <h4 class="label">Message*</h4>
+                <input type="text" name="message" id="message">
+                <small></small>
+            </div>
+            <div class="gender">
+                <h4 class="label">Gender*</h4>
+                <input type="radio" value="male" id="male" name="gender"><span>Male</span>
+                <input type="radio" value="female" id="female" name="gender"><span>Female</span>
+                <small></small>
+            </div>
+            <div class="checkbox">
+                <div class="terms">
+                    <p><span>I hereby grant my consent for:</span></p>
+                    <p><span>1. The data gathered in relation to this contact to be processed and used by PT VOrgreens.</span></p>
+                    <p><span>2. My SUBSCRIPTION to VOrgreens' Newsletter.</span></p>
+                </div>
+                <input type="checkbox" name="checkbox" id="checkbox"><span>I Agree</span>
+            </div>
+            <button id="submit" type="submit" onclick="validate()">SUBMIT</button><span id="error"></span>
+        </form>
+    </div>   
+    <footer>
+        <div class="socials">
+            <div class="socials-text">
+                <span>More about us on our socials</span>
+            </div>
+        </div>
+        <div class="socials">
+            <div class="socials-img">
+                <a href="https://twitter.com/growplantbased?lang=en">
+                    <i class="fa-brands fa-twitter fa-lg"></i>
+                </a>
+                <a href="https://www.facebook.com/growplantbased/">
+                    <i class="fa-brands fa-facebook-f fa-lg"></i>
+                </a>
+                <a href="https://www.instagram.com/growplantbased/">
+                    <i class="fa-brands fa-instagram fa-lg"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

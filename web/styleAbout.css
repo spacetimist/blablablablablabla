@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(14, 39, 22);
+}
+
+/* NAV BAR */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #101111d5;
+    /* padding: atas bawah */
+    /* padding: 20px 50px;  */
+    padding: 3vh 7vw;
+    position: sticky;
+    top: 0;
+}
+.logo span{
+    color: white;
+    font-family: pt 'Times New Roman', Times, serif;
+    font-size: 40px;
+}
+.pages{
+    width: 40%;
+    font-style: normal;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: space-between;
+}
+.pages a{
+    color: white;
+    font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif; 
+    text-align: center;
+    font-size: 13px;
+    /* padding: 0 2vw; */
+}
+
+/* HEADER */
+.banner img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+.slogan{
+    position: absolute;
+    top: 30vh;
+    text-align: right; 
+    right: 7vw;
+}
+.slogan h1{
+    font-size: 60px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+}
+
+/* CONTENT */
+.title h1{
+    text-align: center;
+    padding-top: 2vh;
+    font-size: 2.5vw;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+}
+.item{
+    padding: 0 7vw;
+}
+.info{
+    display: flex;
+    align-items: center;
+    justify-content: left; 
+    text-align: left;
+}
+.info2{
+    display: flex;
+    align-items: center;
+    justify-content: right; 
+    text-align: right;
+    margin-bottom: 2vw;
+}
+h4{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 2vw;
+    margin-bottom: 0.5vw;
+    color: rgb(218, 140, 121);
+}
+.info-img img{
+    width: 20vw;
+    height: 20vw;
+    object-fit: cover;
+    border-radius: 100%;
+    padding-right: 2vw;
+    padding-left: 2vw;
+}
+.info-text{
+    font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+    font-size: 1.2vw;
+    color: white;
+    width: 60%;
+}
+.info3{
+    display: flex;
+    justify-content: center;
+}
+.vm{
+    text-align: center;
+    width: 75%;
+    margin: 2vw;
+    margin-top: 0;
+}
+.vm span{
+    font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+    font-size: 1.2vw;
+    color: white;
+    padding-bottom: 1vw;
+}
+.vm h4{
+    padding-top: 2vw;
+}
+
+/* FOOTER */
+footer{
+    background-color: rgb(5, 17, 8);
+    padding: 1vh 7vw;
+}
+.socials{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1vh 7vw;
+}
+.fa-brands{
+    margin: 1vw;
+    color: white;
+    padding-bottom: 1vh;
+}
+.socials-text span{
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 17px;
+    color: white;
+}

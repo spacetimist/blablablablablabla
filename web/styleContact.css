@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    box-sizing: border-box;
+    background-image: url(./assets/bg.jpg);
+    background-size: cover;
+    background-attachment: scroll;
+}
+
+/* NAV BAR */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #101111d5;
+    /* padding: atas bawah */
+    /* padding: 20px 50px;  */
+    padding: 3vh 7vw;
+    position: sticky;
+    top: 0;
+}
+.logo span{
+    color: white;
+    font-family: pt 'Times New Roman', Times, serif;
+    font-size: 40px;
+}
+.pages{
+    width: 40%;
+    font-style: normal;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: space-between;
+}
+.pages a{
+    color: white;
+    font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif; 
+    text-align: center;
+    font-size: 13px;
+    /* padding: 0 2vw; */
+}
+
+/* CONTAINER */
+.container{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+form{
+    width: 35%;
+    padding: 3%;
+    height: 500px;
+    background-color: white;
+    border-radius: 20px;
+    margin: 40px;
+    box-shadow: 0 0 20px black;
+}
+.title h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #1a532b;
+}
+form h2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+form h3{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.formGroup{
+    width: 100%;
+    position: relative;
+}
+.formGroup h4{
+    padding-top: 1vw;
+}
+.terms{
+    padding-top: 1vw;
+    padding-bottom: 0.5vw;
+}
+.gender{
+    padding-top: 1vw;
+}
+.formGroup input{
+    width: 90%;
+    padding: 7px;
+}
+
+/* PSEUDO ELEMENT HOVER SUBMIT BUTTON */
+form button{
+    width: 100px;
+    margin-top: 1.5vw;
+    padding: 15px;
+    background-color: #1a532b;
+    border-radius: 10px;
+    color: white;
+    border-style: none;
+    position: relative;
+}
+form button::after{
+    cursor: pointer;
+    content: 'SUBMIT';
+    display: block;
+    position: absolute;
+    padding: 14.5px;
+    width: 71%;
+    border-radius: 10px;
+    left: 0;
+    top: 0;
+    background-color:#0e2716;
+    color:white;
+    border-style: none;
+    opacity: 0;
+}
+form button:hover::after{
+    opacity: 1;
+}
+
+/* FOOTER */
+footer{
+    background-color: rgb(5, 17, 8);
+    padding: 1vh 7vw;
+}
+.socials{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1vh 7vw;
+}
+.fa-brands{
+    margin: 1vw;
+    color: white;
+    padding-bottom: 1vh;
+}
+.socials-text span{
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 17px;
+    color: white;
+}
